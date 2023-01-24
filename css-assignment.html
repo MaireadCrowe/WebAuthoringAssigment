@@ -1,0 +1,180 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CSS-Cascading Style Sheets</title>
+<style>
+	
+	body 	{
+			background-color:#595959;
+			color: #121212
+			}
+	
+	#wrapper{
+			max-width: 1500px;
+			background-color: #C5C5C5;
+			margin: auto;
+			border-top-right-radius: 25px;
+			border-top-left-radius: 25px;
+			border-bottom-left-radius: 25px;
+			border-bottom-right-radius: 25px;
+		
+			}
+	header 	{
+			border: solid;
+			border-width: medium;
+			border-color: black;
+			border-top-right-radius: 25px;
+			border-top-left-radius: 25px;
+			height: 170px;
+			text-transform: uppercase;
+			padding-top: 50px;
+			
+			}
+	nav 	{
+			background-color: #ddbbbb;
+			height: 120px;
+			border: inset;
+			border-width: medium;
+			border-color: black;
+			
+			}
+	main 	{
+			background-color:#ECDFDF;
+			width: 70%;
+			margin-right:20px;
+			margin-left: 0px;
+			border:thin;
+			border-color: #1E1C1C;
+			border-style: solid;
+			padding-top: 2px;
+			padding-right: 2px;
+			padding-bottom: 0px;
+			padding-left: 2px;
+			border: dotted;
+			float:left;
+			}
+	aside 	{
+			background-color: #ddbbbb;
+			border: inset;
+			border-width: medium;
+			border-color: black;
+			width: 25%;
+			float: right;
+			
+		
+		
+			}
+	
+	
+	footer  {
+			clear:both;
+			height: 100px;
+			border: solid;
+			border-bottom-left-radius: 25px;
+			border-bottom-right-radius: 25px;
+			background-image: url("images/footer.png");
+			
+			}
+	h1      {
+			text-align: center;
+			font-size: 50px;
+			}
+	h2      {
+			text-align: center;
+			font-size: 25px;
+	 		}
+	
+	h3 		{
+			font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+			font-style: normal;
+			font-variant: inherit;
+			font-weight: 200;
+			font-size: 25px;
+			text-decoration: underline;
+			text-align: center;
+			line-height: normal;
+			}
+	.stand-out-style
+			{
+			font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+			background-color: #2f2f2f;
+			color: #acacac;
+			margin-left: 30px;
+			padding: 5px;
+			font-weight: 25;
+			font-style: italic;
+			}
+	a:link  {
+			text-decoration: none;
+			background-color: #B38B8C;
+			border:thin;
+			border-style: solid;
+			width: 150px;
+			padding-right: 3px;
+			padding-left: 3px;
+			text-align: center;
+			color: #D5C2C2;
+			}
+	a:hover {
+			color:#686464;
+			text-decoration: underline;
+			}
+	a:visited
+			{
+			color:#160909;
+			}
+	a:active{
+			color:#420103;
+			}
+	.list-style	{
+				background-color:#A09292;
+				list-style-image:url("images/icon.png");
+				list-style-position: outside;
+				}
+</style>
+</head>
+	
+<body>
+<div id="wrapper">
+<header>
+  <h1>CSS-Cascading Style Sheets</h1>
+</header>	
+	
+<nav>
+	<h2>The Navigation</h2>
+	<a href="index.html">First Page</a>
+  	<a href="#">Link1</a>
+	<a href="#">Link2</a> 
+	<a href="#">Link3</a> 
+	</nav>
+	
+<main>
+	<h2>The Main</h2>
+	<h3>This is my H3 tag style</h3>
+	<p class="stand-out-style">Stand-out style applied in this paragraph. Stand-out style applied here. Stand-out style applied here.</p>
+	 <ul class="list-style">
+   
+      <li>Notepad</li>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Dreamweaver</li>
+      
+    </ul>
+</main>
+	
+<aside>
+	<h2>The Aside</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam iste quibusdam beatae, quo doloremque perspiciatis quisquam corporis est, illo, dolore distinctio tempore. Ipsa quos maiores fugiat corrupti quaerat fugit, repellendus.</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea magnam nostrum, omnis laboriosam harum dolorem ratione culpa blanditiis eos distinctio, cupiditate corrupti quo dignissimos explicabo vero minus reiciendis quidem. Laudantium deserunt aliquam totam minima voluptatum, libero distinctio inventore adipisci quos vero iste, in id perferendis reprehenderit architecto! Praesentium at eveniet voluptas vitae minima adipisci optio earum asperiores sit. Perspiciatis inventore mollitia maiores minima distinctio unde ab, debitis, soluta modi. Qui?</p>
+
+</aside>
+
+<footer>
+	&copy; Mairead Crowe 2023
+	
+</footer>
+
+</div>	
+</body>
+</html>
