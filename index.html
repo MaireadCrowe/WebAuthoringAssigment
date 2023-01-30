@@ -2,6 +2,23 @@
 <html>
 <head>
 <meta charset="utf-8">
+<style>
+
+table,th,td	{
+		border:1px solid black;
+		
+			}
+th			{
+		text-align:center;
+			}
+td			{
+		text-align:left;
+			}
+th,td		{
+		padding:5px;
+			}
+
+</style>	
 
 
 <title>Introduction to HTML by Mairead Crowe</title>
@@ -73,9 +90,21 @@
 		<h3>Description:</h3>
 		<p>HTML headings are defined with the h1 to h6 tags. H1 defines the most important heading. H6 defines the least important heading. Note: Browsers automatically add some white space (a margin) before and after a heading. Search engines use the headings to index the structure and content of your web pages.</p>
 		<h3>Example of the code:</h3>
-		<p>&lt;h1&gt;&lt;/h1&gt;</p>
-		<h3>Working Example:</h3>
-		<h1>Introduction to HTML by Mairead Crowe</h1>
+		<p>&nbsp;&lt;h1&gt;Heading 1&lt;/h1&gt;&nbsp;</p>
+		<p>&lt;h2&gt;Heading 2&lt;/h2&gt;</p>
+		<p>&nbsp;&lt;h3&gt;Heading 3&lt;/h3&gt;&nbsp;</p>
+		<p>&lt;h4&gt;Heading 4&lt;/h4&gt;&nbsp;</p>
+		<p>&lt;h5&gt;Heading 5&lt;/h5&gt;</p>
+		<p>&nbsp;&lt;h6&gt;Heading 6&lt;/h6&gt;</p>
+        <h3>Working Example:</h3>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<h1>Heading 1</h1>
+		<h2>Heading 2</h2>
+		<h3>Heading 3</h3>
+		<h4>Heading 4</h4>
+		<h5>Heading 5</h5>
+		<h6>Heading 6</h6>
 		
 	
 	<h2>Formatting Elements - strong, emphasis</h2>
@@ -104,39 +133,64 @@
 		<h3>Example of the code:</h3>
 		<p>&lt;table&gt;&lt;/table&gt;&lt;caption&gt;&lt;/caption&gt;</p>
 		<h3>Working Example:</h3>
-			<table>
-  				<caption>Monthly savings</caption>
-  				<tr>
-    			<th>Month</th>
-    			<th>Savings</th>
-  				</tr>
- 				<tr>
-    			<td>January</td>
-    			<td>$100</td>
-  				</tr>
-			</table>
+			
+		<table style="width:100%">
+		<tr>
+			<th>Name</th>
+			<th>Surname</th>
+			<th>Course</th>
+		</tr>
+		<tr>
+			<td>Mairead</td>
+			<td>Crowe</td>
+			<td>Web Authoring</td>
+		</tr>
+		</table>
 	
-	<h2>Lists</h2>
+    <p>&nbsp;</p>
+    <h2>Lists</h2>
 		<h3>Description:</h3>
 		<p>HTML lists allow web developers to group a set of related items in lists.</p>
 		<h3>Example of the code:</h3>
 		<p>&lt;ul&gt;&lt;/ul&gt;</p>
-		<h3>Working Example:</h3>
+		<p>&lt;ol&gt;&lt;/ol&gt;</p>
+		&lt;dl&gt;&lt;/dl&gt;
+      
+<h3>Working Example:</h3>
 		<ul>
   		<li>Coffee</li>
   		<li>Tea</li>
   		<li>Milk</li>
 		</ul>
+
+		<ol>
+		<li>PC</li>
+		<li>Laptop</li>
+		<li>Tablet</li>
+		<li>Phone</li>
+
+		</ol>
+
+		<dl>
+			<dt>HTML</dt>
+		<dd>Abbreviation for Hypertext Markup Language</dd>
+			<dt>Dreamweaver</dt>
+		<dd>Dreamweaver is a software program for designing websites</dd>
+			<dt>Notepad++</dt>
+		<dd>Notepad++ is a source code editor </dd>
+		</dl>
 	
 	
-	<h2>Images &amp; Alt</h2>
+	
+<h2>Images &amp; Alt</h2>
 		<h3>Description:</h3>
 		<p>The required alt attribute specifies an alternate text for an image, if the image cannot be displayed.The alt attribute provides alternative information for an image if a user for some reason cannot view it (because of slow connection, an error in the src attribute, or if the user uses a screen reader).</p>
 		<h3>Example of the code:</h3>
 		<p>&lt;img src=&quot;images/Alt.jfif&quot; width=&quot;474&quot; height=&quot;320&quot; alt=&quot;&quot;/&gt;</p>
 		<h3>Working Example:</h3>
-		<p><img src="images/Alt.jfif" width="474" height="320" alt=""/></p>
-			
+		<p><img src="images/Alt.jfif" width="474" height="320" alt="Altimage"/></p>
+		<p><img src="images/Alts.jfif" width="474" height="320" alt="Altimage"/></p>
+	
 <h2>Links</h2>
 		<h3>Description:</h3>
 		<p>An HTML link is used to link other web pages to a document. When users click on links on web pages, they are brought to other web pages or websites. An HTML document contains many links, which are also known as hyperlinks. Web developers can link from the text, images, and other types of media.Links are specified in HTML using a tags.</p>
